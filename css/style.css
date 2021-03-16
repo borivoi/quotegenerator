@@ -1,0 +1,77 @@
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-family: monospace;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-inline-end: 16px;
+    align-self: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    font-family: monospace;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    font-family: monospace;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-family: monospace;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  h2{
+      display: inline;
+  }
+
+  body{
+        margin: auto;
+        max-width: 1000px;
+        text-align: center;
+        color: white;
+        font-family: monospace;
+        background-color: #A3BFA8;
+  }
+
+  #submit_btn {
+    background-color: #4CAF50;
+    width: 500px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin: 16px;
+    margin-top: 32px;
+    font-family: monospace;
+  }
+
+  #submit_btn:hover{
+    background-color: #3e8e41;
+  }
+
+  #div_radio{
+    margin-bottom: 16px; 
+    margin-top: 16px; 
+    font-size:large;
+  }
