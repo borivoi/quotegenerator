@@ -91,13 +91,13 @@ const generateQoute = () => {
 }
 
 const getQuote = (selectQt) => {
-    let num = randomNum(0, selectQt.length - 1);
+    let num = randomNum(0, selectQt.length);
     let uno = selectQt[num].start;
 
-    num = randomNum(0, selectQt.length - 1);
+    num = randomNum(0, selectQt.length);
     let dos = selectQt[num].middle;
 
-    num = randomNum(0, selectQt.length - 1);
+    num = randomNum(0, selectQt.length);
     let tres = selectQt[num].end;
 
     return '"'+ uno + ' ' + dos + ' ' + tres+'"';
